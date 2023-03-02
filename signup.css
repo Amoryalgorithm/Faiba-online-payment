@@ -1,0 +1,217 @@
+*{
+	
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+
+.wrapper{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #fff;
+}
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+.main-header {
+  width: 100%;
+  min-width: 1150px;
+  height: 70px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: 0;
+}
+.logo {
+  width: 124px;
+  height: 70px;
+  float: left;
+  background: transparent
+    url("https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom-white.svg")
+    center center no-repeat;
+  background-size: 124px 33px;
+}
+.logo a {
+  text-indent: -999em;
+  height: 70px;
+  display: block;
+}
+.main-nav,
+.main-nav li {
+  float: left;
+}
+.main-nav {
+  margin-left: 170px;
+}
+.main-nav a {
+  line-height: 68px;
+  display: block;
+  padding: 0 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+.main-nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+.account {
+  float: right;
+}
+.account .btn {
+  display: inline-block;
+  width: 84px;
+  height: 36px;
+  line-height: 32px;
+  border-radius: 20px;
+  background: #fff;
+  color: #222;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 15px;
+  border: 2px solid #fff;
+  transition: all 0.2s ease;
+}
+.account .btn-secondary {
+  color: #fff;
+  background: none;
+}
+.account .btn:hover {
+  background: #ccc;
+}
+.account .btn-secondary:hover {
+  background: none;
+  border-color: #ccc;
+}
+
+.form-box{
+	width: 750px;
+	height: 600px;
+	background-color: #fff;
+	position: relative;
+    top: 60%;
+    left: 30%;
+    margin: -25px 0 0 -25px;
+	transform: translateY(-50%);
+	padding: 5px;
+	
+}
+
+
+
+.existinguserlabel{
+	margin-left: 500px;
+	padding-left: 34px;
+	position:absolute ;
+	top: 2%;
+}
+
+
+.createaccount{
+	text-align: center;
+	position: relative;
+ 	bottom: -100px;
+ 	font-size: 30px;
+ 	font-style: normal;
+ 	color: black;
+
+
+}
+
+.personalbtn{
+	margin-left: 80px;
+    padding-left: 20px;
+    position: absolute;
+    top: -40%;
+    cursor: pointer;
+    background: #fff;
+   border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	margin-left: 200px;
+
+
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+
+}
+
+.submit-btn{
+	display: block;
+  width: 300px;
+  height: 50px;
+  line-height: 48px;
+  border-radius: 20px;
+  background: #0070ba;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 auto 8px;
+  border: 2px solid #0070ba;
+  transition: all 0.2s ease;
+  position: absolute;
+  bottom: -50px;
+
+}
+.submit-btn:hover {
+  background: #005ea6;
+}
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+span{
+	color: #777;
+	font-size: 12px;
+	bottom: 28px;
+	position: absolute;
+}
+#registerpersonalform{
+	left: 50px;
+}
+
+#registerbusinessform{
+	left: 450px;
+}
+.copyright{
+	bottom: 80px;
+	position: absolute;
+	margin-left: 270px;
+	padding-left: 34px;
+	color: black;
+	
+
+}
